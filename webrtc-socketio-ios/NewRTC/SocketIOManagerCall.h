@@ -15,6 +15,7 @@ static NSString * const socketIOURL = @"http://localhost:3000";
 @interface SocketIOManagerCall : NSObject
 
 @property (nonatomic, retain) SocketIOClient *socket;
+@property (nonatomic, strong) SocketManager *manager;
 
 
 + (instancetype)sharedManager;

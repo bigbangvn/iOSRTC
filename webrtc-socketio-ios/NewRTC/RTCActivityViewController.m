@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 #import <Toast/UIView+Toast.h>
+#import "SocketIOManagerCall.h"
 
 @interface RTCActivityViewController ()
 

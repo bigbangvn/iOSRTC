@@ -8,8 +8,6 @@
 
 #import "Peer.h"
 
-#import "SocketIOManagerCall.h"
-
 
 static NSString *kARDAppClientErrorDomain = @"WebRTCClient";
 static NSInteger kARDAppClientErrorSetSDP = -4;

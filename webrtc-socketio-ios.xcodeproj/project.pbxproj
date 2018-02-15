@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15E03D77561470F0EF1466D8 /* libPods-webrtc-socketio-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05C0D01009FF7A615125F85 /* libPods-webrtc-socketio-ios.a */; };
+		0770A59B2034080600756D23 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770A59A2034080600756D23 /* File.swift */; };
+		77738D263913E085304069B8 /* Pods_webrtc_socketio_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0045FE6A874FA191D0A94CA /* Pods_webrtc_socketio_ios.framework */; };
 		9507B5741E52BC820049A51F /* Peer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9507B56E1E52BC820049A51F /* Peer.m */; };
 		9507B5751E52BC820049A51F /* PeerConnectionParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9507B5701E52BC820049A51F /* PeerConnectionParameters.m */; };
 		9507B5761E52BC820049A51F /* WebRTCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9507B5721E52BC820049A51F /* WebRTCClient.m */; };
@@ -19,8 +20,6 @@
 		95E9E1981E4C516F004DCD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E9E1961E4C516F004DCD5D /* Main.storyboard */; };
 		95E9E19A1E4C516F004DCD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E9E1991E4C516F004DCD5D /* Assets.xcassets */; };
 		95E9E19D1E4C516F004DCD5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E9E19B1E4C516F004DCD5D /* LaunchScreen.storyboard */; };
-		95E9E1BA1E4C530A004DCD5D /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E9E1B91E4C530A004DCD5D /* SocketIO.framework */; };
-		95E9E1BB1E4C530A004DCD5D /* SocketIO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 95E9E1B91E4C530A004DCD5D /* SocketIO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		95E9E1C71E4C5DB9004DCD5D /* SocketIOManagerCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E9E1C61E4C5DB9004DCD5D /* SocketIOManagerCall.m */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				95E9E1BB1E4C530A004DCD5D /* SocketIO.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0770A5992034080600756D23 /* webrtc-socketio-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webrtc-socketio-ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		0770A59A2034080600756D23 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		58055DA45C92D3EFB9FDB89B /* Pods-webrtc-socketio-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc-socketio-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-webrtc-socketio-ios/Pods-webrtc-socketio-ios.release.xcconfig"; sourceTree = "<group>"; };
 		9507B56D1E52BC820049A51F /* Peer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Peer.h; path = NewRTC/Peer.h; sourceTree = "<group>"; };
 		9507B56E1E52BC820049A51F /* Peer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Peer.m; path = NewRTC/Peer.m; sourceTree = "<group>"; };
@@ -59,11 +59,10 @@
 		95E9E1991E4C516F004DCD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95E9E19C1E4C516F004DCD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95E9E19E1E4C516F004DCD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95E9E1B91E4C530A004DCD5D /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocketIO.framework; sourceTree = "<group>"; };
 		95E9E1C51E4C5DB9004DCD5D /* SocketIOManagerCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIOManagerCall.h; path = NewRTC/SocketIOManagerCall.h; sourceTree = "<group>"; };
 		95E9E1C61E4C5DB9004DCD5D /* SocketIOManagerCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIOManagerCall.m; path = NewRTC/SocketIOManagerCall.m; sourceTree = "<group>"; };
 		BFC5B10CC9F082091B121A68 /* Pods-webrtc-socketio-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc-socketio-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webrtc-socketio-ios/Pods-webrtc-socketio-ios.debug.xcconfig"; sourceTree = "<group>"; };
-		D05C0D01009FF7A615125F85 /* libPods-webrtc-socketio-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webrtc-socketio-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0045FE6A874FA191D0A94CA /* Pods_webrtc_socketio_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webrtc_socketio_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15E03D77561470F0EF1466D8 /* libPods-webrtc-socketio-ios.a in Frameworks */,
-				95E9E1BA1E4C530A004DCD5D /* SocketIO.framework in Frameworks */,
+				77738D263913E085304069B8 /* Pods_webrtc_socketio_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +89,6 @@
 		95E9E1811E4C516F004DCD5D = {
 			isa = PBXGroup;
 			children = (
-				95E9E1B91E4C530A004DCD5D /* SocketIO.framework */,
 				95E9E18C1E4C516F004DCD5D /* webrtc-socketio-ios */,
 				95E9E18B1E4C516F004DCD5D /* Products */,
 				72F975EF5E644F915BE5B4E5 /* Pods */,
@@ -115,11 +112,13 @@
 				95E9E1911E4C516F004DCD5D /* AppDelegate.m */,
 				95E9E1931E4C516F004DCD5D /* ViewController.h */,
 				95E9E1941E4C516F004DCD5D /* ViewController.m */,
+				0770A59A2034080600756D23 /* File.swift */,
 				95E9E1961E4C516F004DCD5D /* Main.storyboard */,
 				95E9E1991E4C516F004DCD5D /* Assets.xcassets */,
 				95E9E19B1E4C516F004DCD5D /* LaunchScreen.storyboard */,
 				95E9E19E1E4C516F004DCD5D /* Info.plist */,
 				95E9E18D1E4C516F004DCD5D /* Supporting Files */,
+				0770A5992034080600756D23 /* webrtc-socketio-ios-Bridging-Header.h */,
 			);
 			path = "webrtc-socketio-ios";
 			sourceTree = "<group>";
@@ -153,7 +152,7 @@
 		AC5ACA097C8B75E8484C862B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D05C0D01009FF7A615125F85 /* libPods-webrtc-socketio-ios.a */,
+				E0045FE6A874FA191D0A94CA /* Pods_webrtc_socketio_ios.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,6 +192,8 @@
 				TargetAttributes = {
 					95E9E1891E4C516F004DCD5D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5HHW6TCSUF;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -236,13 +237,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-webrtc-socketio-ios-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		95A49B06BB9DAD48C2D37CA4 /* [CP] Embed Pods Frameworks */ = {
@@ -251,9 +255,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-webrtc-socketio-ios/Pods-webrtc-socketio-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/NSDictionary-ANDYSafeValue/NSDictionary_ANDYSafeValue.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSDictionary_ANDYSafeValue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -266,9 +281,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-webrtc-socketio-ios/Pods-webrtc-socketio-ios-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -289,6 +307,7 @@
 				9507B5751E52BC820049A51F /* PeerConnectionParameters.m in Sources */,
 				9507B5741E52BC820049A51F /* Peer.m in Sources */,
 				9507B5761E52BC820049A51F /* WebRTCClient.m in Sources */,
+				0770A59B2034080600756D23 /* File.swift in Sources */,
 				95E870101E557CFC00160E4B /* RTCActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,17 +430,20 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5HHW6TCSUF;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "webrtc-socketio-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digix.webrtc-socketio-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "webrtc-socketio-ios/webrtc-socketio-ios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -431,17 +453,19 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5HHW6TCSUF;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "webrtc-socketio-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digix.webrtc-socketio-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "webrtc-socketio-ios/webrtc-socketio-ios-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

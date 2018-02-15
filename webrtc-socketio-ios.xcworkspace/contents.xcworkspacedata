@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:socket.io-client-swift-master/Socket.IO-Client-Swift.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:webrtc-socketio-ios.xcodeproj">
    </FileRef>
    <FileRef

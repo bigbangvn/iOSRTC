@@ -3,7 +3,7 @@
 
 target 'webrtc-socketio-ios' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
+  use_frameworks!
 
   # Pods for webrtc-socketio-ios
 
@@ -12,5 +12,6 @@ target 'webrtc-socketio-ios' do
   pod 'IQKeyboardManager'
   
   pod 'Toast'
+  pod 'Socket.IO-Client-Swift', '~> 13.1.0'
 
 end

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "webrtc_socketio_ios-Swift.h"
 
 @interface ViewController ()
 

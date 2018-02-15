@@ -7,8 +7,7 @@
 //
 
 #import "SocketIOManagerCall.h"
-
-
+#import "webrtc_socketio_ios-Swift.h"
 
 @implementation SocketIOManagerCall
 
@@ -31,7 +30,8 @@
         options[@"forcePolling"] = @YES;
         
         NSURL* url = [[NSURL alloc] initWithString:socketIOURL];
-        self.socket = [[SocketIOClient alloc] initWithSocketURL:url config:options];
+        self.manager = [[SocketManager alloc] initWithSocketURL:url config:options];
+        self.socket = self.manager.defaultSocket;
 
     }
     

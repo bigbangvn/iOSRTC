@@ -24,8 +24,6 @@
 
 #import "PeerConnectionParameters.h"
 
-#import "SocketIOManagerCall.h"
-
 typedef NS_ENUM(NSInteger, WebRTCClientState) {
     // Disconnected from servers.
     kWebRTCClientStateDisconnected,
